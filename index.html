@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/icons.css">
+</head>
+
+<body>
+    <div id="parentDiv">
+        <h1>OpenWeather API</h1>
+        <div id="cities">
+            <div id="Kyiv">
+                <div class="city"> </div>
+                <div class="weather "></div>
+                <div class="icon "> <img src="" alt="" id="img"></div>
+                <div class="next"> <i class="gg-arrow-long-right"></i></div>
+
+            </div>
+            <div class="down"><i class="gg-arrow-long-down"></i></div>
+            <div class="description">
+                <div class="Wspeed">W.speed</div>
+                <div class="WDirection">W.Direction<br><span class="icon-arrow-up"></span></div>
+                <div class="Pressure">Pressure</div>
+                <div class="sunrise">sunrise</div>
+                <div class="sunset">sunset</div>
+            </div>
+            <div id="London">
+                <div class="city"></div>
+                <div class="weather"></div>
+                <div class="icon"></div>
+                <div class="next"> <i class="gg-arrow-long-right"></i></div>
+
+            </div>
+            <div class="down"><i class="gg-arrow-long-down"></i></div>
+            <div class="description">
+                <div class="Wspeed">W.speed</div>
+                <div class="WDirection">W.Direction <br><span class="icon-arrow-up"></span></div>
+                <div class="Pressure">Pressure</div>
+                <div class="sunrise">sunrise</div>
+                <div class="sunset">sunset</div>
+            </div>
+            <div id="New_York">
+                <div class="city"></div>
+                <div class="weather"></div>
+                <div class="icon"></div>
+                <div class="next"> <i class="gg-arrow-long-right"></i></div>
+
+            </div>
+            <div class="down"><i class="gg-arrow-long-down"></i></div>
+            <div class="description">
+                <div class="Wspeed">W.speed</div>
+                <div class="WDirection">W.Direction <br><span class="icon-arrow-up"></span></div>
+                <div class="Pressure">Pressure</div>
+                <div class="sunrise">sunrise</div>
+                <div class="sunset">sunset</div>
+            </div>
+            <div id="switch">
+                <label for="slider" style="cursor: pointer;"> Цельсии (°C) </label>
+                <label class="switch">
+                    <input type="checkbox" id="slider" name="slider">
+                    <span class="slider"></span>
+                </label>
+                <label for="slider" style="cursor: pointer;">Фаренгейты (°F).</label>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js.js"></script>
+    <script src="./src/arrows.js"></script>
+</body>
+</body>
+
+</html>
