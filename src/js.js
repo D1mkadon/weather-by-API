@@ -27,8 +27,8 @@ for(let i = 0; i<arrowDown.length; i++){
 }
 
 
-let url = ["http://api.openweathermap.org/data/2.5/weather?id=703448&appid=bf35cac91880cb98375230fb443a116f", "http://api.openweathermap.org/data/2.5/weather?id=2643743&appid=bf35cac91880cb98375230fb443a116f",
-"http://api.openweathermap.org/data/2.5/weather?id=5128638&appid=bf35cac91880cb98375230fb443a116f"];
+let url = ["https://api.openweathermap.org/data/2.5/weather?id=703448&appid=bf35cac91880cb98375230fb443a116f", "https://api.openweathermap.org/data/2.5/weather?id=2643743&appid=bf35cac91880cb98375230fb443a116f",
+"https://api.openweathermap.org/data/2.5/weather?id=5128638&appid=bf35cac91880cb98375230fb443a116f"];
 for (let i=0; i<url.length;i++){
    let thisUrl = url[i];
    fetch(thisUrl).then(response => response.json())
